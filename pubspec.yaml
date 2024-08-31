@@ -1,0 +1,82 @@
+name: template_project
+description: "A new Flutter project."
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+# environment:
+#     sdk: '>=3.2.5 <4.0.0'
+#     flutter: 3.19.0
+
+# Flutter 3.22.2 • channel stable • https://github.com/flutter/flutter.git
+# Framework • revision 761747bfc5 (3 months ago) • 2024-06-05 22:15:13 +0200
+# Engine • revision edd8546116
+# Tools • Dart 3.4.3 • DevTools 2.34.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  # rxdart: 0.27.7
+  collection: 1.18.0
+  ## Structure code
+  # nested: 1.0.0
+  # elementary: 3.0.0
+  # union_state: 0.0.1
+  # surf_logger: 2.0.0
+
+  # shimmer: 3.0.0
+  # mask_text_input_formatter: 2.9.0
+  # cached_network_image: 3.3.1
+  # flutter_easy_dialogs: 3.2.0
+  # flutter_svg: 2.0.9
+  # theme_tailor: ^3.0.1
+  #  theme_tailor_annotation: 3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  ## Generator
+  flutter_gen_runner: ^5.3.2
+  build_runner: ^2.4.6
+  # auto_route_generator: 7.3.2
+  # flutter_launcher_icons: 0.13.1
+  # flutter_native_splash: 2.3.9
+  # spider: 4.2.2
+  # surf_dcm_presets: 0.0.2
+  # surf_lint_rules: 3.0.0
+
+  #  theme_tailor: 3.0.1
+
+  # Test other NO HTTP
+
+  # bloc_test: any
+  ## Widget test
+  # golden_toolkit: any
+  # flutter_test_tools: any
+  ## "E2E" (End-to-End) test
+  # integration_test: any
+  # flutter_driver: any
+  ### BDD testing E2E
+  # flutter_gherkin: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+    - assets/icons/
+    - assets/images/
+
+
+flutter_gen:
+  output: lib/app/common/generated
+  line_length: 100
+  integrations:
+    flutter_svg: true

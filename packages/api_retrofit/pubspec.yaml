@@ -1,0 +1,40 @@
+name: api_retrofit
+description: "A new Flutter package project."
+version: 0.0.1
+# homepage:
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  retrofit: ^3.0.1
+  dio: ^5.3.3
+  ## Если ваше приложение использует кэширование запросов, этот пакет будет полезен для тестирования поведения кэша
+  dio_http_cache: ^0.3.0
+  # fresh_dio: 0.4.1
+  ## Logger
+  dio_logger: any
+  logger: ^1.0.0
+  # talker: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  ## Test
+  mockito: ^5.0.16
+  # mocktail: any
+  # mock_web_server: any
+  # test: any
+  ## Generator
+  retrofit_generator: ^3.0.0
+  build_runner: ^2.4.6
+
+flutter:
+  assets:
+    - assets/fixture_data/
+    # - assets/.env
