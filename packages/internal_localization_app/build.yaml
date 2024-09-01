@@ -1,0 +1,8 @@
+targets:
+  $default:
+    builders:
+      easy_localization_generator:easy_localization_builder:
+        options:
+          source_dir: assets/translations
+          output_dir: lib/generated
+          format: keys
